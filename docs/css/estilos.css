@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+
+section h2 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+section img {
+    margin: 8px auto;
+    padding: 10px;
+    width: 250px;
+    border-style: groove;
+    border-color: rgb(73, 165, 42);
+    border-width: 5px;
+    text-align: center;
+    display: block;
+}
+
+.p1 {
+    text-align: center;
+    background-color: wheat;
+    color: black;
+}
+
+.info {
+    background-color: rgb(255, 44, 2);
+    color: white;
+    width: 0 auto;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(212, 149, 149);
+    border: solid 5px black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    box-shadow: 3px 3px 4px #ddd;
+}
+
+caption {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    border: solid 5px darkorchid;
+    color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+table tr th,
+table tr td {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid red;
+}
+
+table tr th {
+    background-color: aqua;
+    color: black;
+}
+
+._portatil {
+    text-align: center;
+    background-color: plum;
+    color: black;
+}
+
+._comprar {
+    text-align: center;
+    background-color: rgb(132, 110, 203);
+    color: black;
+}
+
+table td:nth-child(2) {
+    text-align: center;
+}
+
+.contenedor {
+    background-color: grey;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 10px 10px 10px yellowgreen;
+}
+
+.btn {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+}
+
+
+.lista {
+    background-color: #ddd;
+    width: 70%;
+    margin: 0 auto;
+}
+
+._contenido {
+    padding: 50px;
+    list-style: georgian;
+}
+
+ul li {
+    text-align: justify;
+}
